@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Event and Activities page</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!--My Css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">
+                <h3>GOWTHAMRAJ NETWORK</h3>
+            </div>
+
+            <div class="navbar-links">
+                <p> HOME </p>
+                <p> ABOUTUS </p>
+                <p> SERVICE </p>
+                <p> GALLERY </p>
+                <p> OUR STAFF </p>
+                <p> BLOG </p>
+                <p> VIDEOS </p>
+                <p> CONTACT </p>
+            </div>
+
+            <div class="menu">
+                <i class="fa-solid fa-bars" onclick="shownavbar()"></i>
+            </div>
+        </nav>
+
+        <div class="event-title">
+            <div class="event-name">
+                <h1> <span class="color1">Digital Conference</span> <span class="color2">for</span> <span class="color3">Web Developers</span> </h1>
+            </div>
+            
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni accusantium ipsum enim, corporis nemo quisquam delectus aliquam. Nihil, dolores alias ea explicabo ducimus quasi iste ratione, ipsam sed, odio ut!</p>
+
+            <div class="event-time">
+               <h4><i class="fa-regular fa-clock"></i> SEPTEMBER 10,2024 <span class="center-line"> | </span> <i class="fa-solid fa-location-dot"></i> CHENNAI, TAMILNADU</h4>
+            </div>
+
+            <div class="ticket-btn">
+                <button> Get Your Tickets</button>
+            </div>
+        </div>
+    </div>
+
+    <!--Side Navbar-->
+    <div class="side-navbar">
+        <p class="cross-symbol" onclick="closenavbar()"> <i class="fa fa-times" aria-hidden="true"></i> </p>
+        
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="#"> HOME </a></p>
+            <p class="side-navbar-link"><a href="#"> ABOUTUS </a></p>
+            <p class="side-navbar-link"><a href="#">  SERVICE </a></p>
+            <p class="side-navbar-link"><a href="#">  GALLERY </a></p>
+            <p class="side-navbar-link"><a href="#"> OUR STAFF </a></p>
+            <p class="side-navbar-link"><a href="#"> BLOG </a></p>
+            <p class="side-navbar-link"><a href="#"> VIDEOS </a></p>
+            <p class="side-navbar-link"><a href="#">  CONTACT </a></p>
+        </div>
+    </div>
+
+    <div class="services">
+        <h3> Our Services </h3>
+        <div class="line"> </div>
+
+        <div class="service-list">
+            <div class="service">
+                <i class="fa-solid fa-music"></i>
+                <h4> DJ Music </h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, animi!</p>
+            </div>
+
+            <div class="service">
+                <i class="fa-solid fa-bowl-food"></i>
+                <h4> Food & Drink </h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, animi!</p>
+            </div>
+
+            <div class="service">
+                <i class="fa-solid fa-star"></i>
+                <h4> Fireworks </h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, animi!</p>
+            </div>
+
+            <div class="service">
+                <i class="fa-solid fa-compact-disc" aria-hidden="true"></i>
+                <h4> Rain Dance </h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, animi!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="aboutus">
+
+        <div class="video">
+            <i class="fa-solid fa-play"></i>
+        </div>
+
+        <div class="about-text">
+            <h3> About Us </h3>
+            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque recusandae quos molestias unde cum! Quidem debitis deleniti ipsum consequatur eaque!</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sequi consequuntur sed quis aliquid quisquam quam repudiandae, reiciendis cumque temporibus odio est culpa ducimus reprehenderit ut voluptatem amet sit accusamus atque dignissimos? Amet, assumenda. Dolore aliquid vero deleniti voluptatum nisi.</p>
+        </div>
+
+    </div>
+
+    <div class="staff-page">
+        <h3> Our Staff </h3>
+        <div class="line"> </div>
+        <div class="staff-imgs">
+            <div class="staff-img">
+                <img src="3.avif" alt="">
+                <div class="staff-profile">
+                    <h3> Name </h3>
+                    <h3>(Team Manager)</h3>
+                    <div class="staff-social-icon">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="staff-img">
+                <img src="2.avif" alt="">
+                <div class="staff-profile">
+                    <h3> Name </h3>
+                    <h3>(Manager)</h3>
+                    <div class="staff-social-icon">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="staff-img">
+                <img src="4.avif" alt="">
+                <div class="staff-profile">
+                    <h3> Name </h3>
+                    <h3>(CEO & Founder)</h3>
+                    <div class="staff-social-icon">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="staff-img">
+                <img src="5.jpg" alt="">
+                <div class="staff-profile">
+                    <h3> Name </h3>
+                    <h3>(Event Manager)</h3>
+                    <div class="staff-social-icon">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gallery">
+        <h3> Our Gallery </h3>
+
+        <div class="photos">
+            <div class="photo">
+                <img src="party.jpg" alt="">
+                <div class="photo-text">
+                    <div class="photo-border">
+                        <h4> Party </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum magnam optio laboriosam quasi praesentium perferendis quis sunt adipisci deleniti natus!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="photo">
+                <img src="dance.jpg" alt="">
+                <div class="photo-text">
+                    <div class="photo-border">
+                        <h4> Dance </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum magnam optio laboriosam quasi praesentium perferendis quis sunt adipisci deleniti natus!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="photo">
+                <img src="music.jpg" alt="">
+                <div class="photo-text">
+                    <div class="photo-border">
+                        <h4> Music </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum magnam optio laboriosam quasi praesentium perferendis quis sunt adipisci deleniti natus!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="photo">
+                <img src="dinner.webp" alt="">
+                <div class="photo-text">
+                    <div class="photo-border">
+                        <h4> Dinner </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum magnam optio laboriosam quasi praesentium perferendis quis sunt adipisci deleniti natus!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="photo">
+                <img src="tour.jpg" alt="">
+                <div class="photo-text">
+                    <div class="photo-border">
+                        <h4> Trip </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum magnam optio laboriosam quasi praesentium perferendis quis sunt adipisci deleniti natus!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="photo">
+                <img src="fireworks.jpg" alt="">
+                <div class="photo-text">
+                    <div class="photo-border">
+                        <h4> Fireworks </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum magnam optio laboriosam quasi praesentium perferendis quis sunt adipisci deleniti natus!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="videos">
+        <h3> Videos </h3>
+        <div class="latest-videos">
+            <h4>Latest Videos</h3>
+            <div class="latest-video">
+                <div class="video-box">
+                    <video src="successfull project meeting.mp4" controls loop poster="meeting img.avif"></video>
+                    <p> Successful Project Meeting</p>
+                </div>
+
+                <div class="video-box">
+                    <video src="hiring video.mp4" controls poster="hiring img.webp"></video>
+                    <p>Fresher Hiring</p>
+                </div>
+
+                <div class="video-box">
+                    <video src="group meeting.mp4" controls loop poster="group meeting img.webp"></video>
+                    <p> Group Meeting</p>
+                </div>
+
+                <div class="video-box">
+                    <video src="Dancing Video.mp4" controls poster="dancing video img.jpg"></video>
+                    <p> Party Dance </p>
+                </div>
+    
+                
+            </div>
+        </div>
+
+        <div class="latest-videos">
+            <h4>Live Concert Videos</h3>
+            <div class="latest-video">
+                <div class="video-box">
+                    <video src="successfull project meeting.mp4" controls loop poster="meeting img.avif"></video>
+                </div>
+
+                <div class="video-box">
+                    <video src="successfull project meeting.mp4" controls loop poster="meeting img.avif"></video>
+                </div>
+
+                <div class="video-box">
+                    <video src="successfull project meeting.mp4" controls loop poster="meeting img.avif"></video>
+                </div>
+
+                <div class="video-box">
+                    <video src="successfull project meeting.mp4" controls loop poster="meeting img.avif"></video>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="contactus">
+        <h3> Contact Us</h3>
+        
+        <div class="loc-con-mail">
+            <div class="contact-text">
+                <i class="fa-duotone fa-solid fa-house"></i>
+                <h4>Location</h4>
+                <p>XYZ Address</p>
+            </div>
+
+            <div class="contact-text">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <h4>Contact</h4>
+                <p>(+91) 1234567890</p>
+            </div>
+
+            <div class="contact-text">
+                <i class="fa-solid fa-envelope"></i>
+                <h4>E-mail</h4>
+                <p>xyz@event.com</p>
+            </div>
+        </div>
+
+        <div class="submit-page">
+            <div class="employee-imformation">
+                <input type="text" placeholder="Enter your full name*">
+                <input type="text" placeholder="Enter your email*">
+                <input type="text" placeholder="Contact No*">
+            </div>
+
+            <div class="message">
+                <h4> Your Message</h4>
+                <textarea type="text"></textarea>
+            </div>
+
+            <div class="sub-btn">
+                <button> Submit </button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
